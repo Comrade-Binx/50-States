@@ -1,0 +1,1166 @@
+//Most states, actually. All except for Alabama and Alaska 
+//State flag
+                      JLabel flagLabelAlaska = new JLabel(new ImageIcon("path/to/flag.png"));
+                      panel.add(flagLabel);
+                      // State description
+                      JLabel descriptionLabelAlaksa = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                      panel.add(descriptionLabel);
+                      //State Flower
+                      JLabel flowerLabelAlaska = new JLabel("State Flower: Alpine Forget me not");
+                      panel.add(flowerLabel);
+                      //State Bird
+                      JLabel birdLabelAlaska = new JLabel("State Bird: Willow ptarmigan");
+                      panel.add(birdLabel);
+                                                      // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                    
+                      // Arizona
+                          private static void Arizona() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                      JLabel flagLabelArizona = new JLabel(new ImageIcon("path/to/flag.png"));
+                      panel.add(flagLabel);
+                      // State description
+                      JLabel descriptionLabelArizona = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                        JLabel flowerLabelArizona = new JLabel("State Flower: Cactus Flower");
+                       panel.add(flowerLabel);
+                      //State Bird
+                      JLabel birdLabelArizona = new JLabel("State Bird: Cactus Wren");
+                      panel.add(birdLabel);
+                                                       // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+            
+                      // Arkansas
+                          private static void Arkansas() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelArkansas = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                        // State description
+                       JLabel descriptionLabelArkansas = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                      panel.add(descriptionLabel);
+                      //State Flower
+                      JLabel flowerLabelArkansas = new JLabel("State Flower: Apple Blossom");
+                       panel.add(flowerLabel);
+                       //State Bird
+                  JLabel birdLabelArkansas = new JLabel("State Bird: Northern Mockingbird");
+                        panel.add(birdLabel);
+                                                         // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+               
+                       // California
+                           private static void California() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelCalifornia = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelCalifornia = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelCalifornia = new JLabel("State Flower: California Poppy");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelCalifornia = new JLabel("State Bird: California Quail");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+             
+                        // Colorado
+                            private static void Colorado() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                         JLabel flagLabelColorado = new JLabel(new ImageIcon("path/to/flag.png"));
+                         panel.add(flagLabel);
+                         // State description
+                         JLabel descriptionLabelColorado = new JLabel(
+                                "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                        JLabel flowerLabelColorado = new JLabel("State Flower: Rocky Mountain Columbine");
+                       panel.add(flowerLabel);
+                       //State Bird
+                        JLabel birdLabelColorado = new JLabel("State Bird: Lark Bunting");
+                        panel.add(birdLabel);
+                                                         // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+               
+                       // Connecticut
+                           private static void Connecticut() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelConnecticut = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                      JLabel descriptionLabelConnecticut = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                        JLabel flowerLabelConnecticut = new JLabel("State Flower: Mountain Laurel");
+                       panel.add(flowerLabel);
+                      //State Bird
+                      JLabel birdLabelConnecticut = new JLabel("State Bird: American Robin");
+                      panel.add(birdLabel);
+                                                       // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+            
+                      // Delaware
+                          private static void Delaware() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelDelaware = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                        // State description
+                       JLabel descriptionLabelDelaware = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                      panel.add(descriptionLabel);
+                      //State Flower
+                      JLabel flowerLabelDelaware = new JLabel("State Flower: Peach Blossom");
+                      panel.add(flowerLabel);
+                      //State Bird
+                       JLabel birdLabelDelaware = new JLabel("State Bird: Delaware Blue Hen");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+              
+                       // Florida
+                          private static void Florida() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                      JLabel flagLabelFlorida = new JLabel(new ImageIcon("path/to/flag.png"));
+                      panel.add(flagLabel);
+                      // State description
+                      JLabel descriptionLabelFlorida = new JLabel(
+                              "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                        JLabel flowerLabelFlorida = new JLabel("State Flower: Orange Blossom");
+                       panel.add(flowerLabel);
+                      //State Bird
+                      JLabel birdLabelFlorida  = new JLabel("State Bird: Norhtern Mockingbird");
+                      panel.add(birdLabel);
+                                                       // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+            
+                       // Georgia
+                           private static void Georgia() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                        JLabel flagLabelGeorgia = new JLabel(new ImageIcon("path/to/flag.png"));
+                        panel.add(flagLabel);
+                         // State description
+                        JLabel descriptionLabelGeorgia = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                       JLabel flowerLabelGeorgia = new JLabel("State Flower: Cherokee Rose");
+                       panel.add(flowerLabel);
+                       //State Bird
+                        JLabel birdLabelGeorgia = new JLabel("State Bird: Brown Thrasher");
+                        panel.add(birdLabel);
+                                                         // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+               
+                        // Hawaii
+                           private static void Hawaii() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelHawaii = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                        JLabel descriptionLabelHawaii = new JLabel(
+                                "State Description: Beautiful landscapes, rich history, etc.");
+                         panel.add(descriptionLabel);
+                         //State Flower
+                          JLabel flowerLabelHawaii = new JLabel("State Flower: Pua Aloalo");
+                         panel.add(flowerLabel);
+                        //State Bird
+                        JLabel birdLabelHawaii = new JLabel("State Bird: Nene");
+                        panel.add(birdLabel);
+                                                         // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+              
+                        // Idaho
+                            private static void Idaho() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                         JLabel flagLabelIdaho = new JLabel(new ImageIcon("path/to/flag.png"));
+                         panel.add(flagLabel);
+                          // State description
+                         JLabel descriptionLabelIdaho = new JLabel(
+                                "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        
+                        //State Flower
+                        JLabel flowerLabelIdaho = new JLabel("State Flower: Syringa");
+                         panel.add(flowerLabel);
+                         //State Bird
+                          JLabel birdLabelIdaho = new JLabel("State Bird: Mountain Bluebird");
+                          panel.add(birdLabel);
+                                                           // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+           
+                          // Illinois
+                             private static void Illinois() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                         JLabel flagLabelIllinois = new JLabel(new ImageIcon("path/to/flag.png"));
+                         panel.add(flagLabel);
+                         // State description
+                        JLabel descriptionLabelIllinois = new JLabel(
+                                "State Description: Beautiful landscapes, rich history, etc.");
+                         panel.add(descriptionLabel);
+                         //State Flower
+                          JLabel flowerLabelIllinois = new JLabel("State Flower: Violet");
+                        panel.add(flowerLabel);
+                        //State Bird
+                        JLabel birdLabelIllinois = new JLabel("State Bird: Cardinal");
+                        panel.add(birdLabel);
+                                                         // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+              
+                       // Indiana
+                           private static void Indiana() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                        JLabel flagLabelIndiana = new JLabel(new ImageIcon("path/to/flag.png"));
+                        panel.add(flagLabel);
+                         // State description
+                        JLabel descriptionLabelIndiana = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                       JLabel flowerLabelIndiana = new JLabel("State Flower: Peony");
+                       panel.add(flowerLabel);
+                       //State Bird
+                        JLabel birdLabelIndiana = new JLabel("State Bird: Cardinal");
+                        panel.add(birdLabel);
+                                                                // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+               
+                        // Iowa
+                           private static void Iowa() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelIowa = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelIowa = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelIowa = new JLabel("State Flower: Wild Rose");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelIowa = new JLabel("State Bird: Eastern Goldfinch");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+             
+                       // Kansas
+                           private static void Kansas() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                        JLabel flagLabelKansas = new JLabel(new ImageIcon("path/to/flag.png"));
+                        panel.add(flagLabel);
+                         // State description
+                        JLabel descriptionLabelKansas = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                       panel.add(descriptionLabel);
+                       //State Flower
+                       JLabel flowerLabelKansas = new JLabel("State Flower: Sunflower");
+                       panel.add(flowerLabel);
+                       //State Bird
+                        JLabel birdLabelKansas = new JLabel("State Bird: Western Meadowlark");
+                        panel.add(birdLabel);
+                                                                // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+               
+                       // Kentucky
+                           private static void Kentucky() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelKentucky = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelKentucky = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelKentucky = new JLabel("State Flower: Goldenrod Flower");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelKentucky = new JLabel("State Bird: Cardinal");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Louisiana
+                           private static void Louisiana() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelLouisiana = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelLouisiana = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelLouisiana = new JLabel("State Flower: Magnolia");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelLouisiana = new JLabel("State Bird: Eastern Brown Pelican");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Maine
+                           private static void Maine() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMaine = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMaine = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMaine = new JLabel("State Flower: White Pine Cone and Tassel");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMaine = new JLabel("State Bird: Chickadee");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Maryland
+                           private static void Maryland() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMaryland = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMaryland = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMaryland = new JLabel("State Flower: Black-eyed Susan");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMaryland = new JLabel("State Bird: Baltimore Oriole");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Massachusetts
+                           private static void Massachusetts() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMassachusetts = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMassachusetts = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMassachusetts = new JLabel("State Flower: Trailing-Arbutus");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMassachusetts = new JLabel("State Bird: Chickadee");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Michigan
+                           private static void Michigan() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMichigan = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMichigan = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMichigan = new JLabel("State Flower: Apple Blossom");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMichigan = new JLabel("State Bird: Robin");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Minnesota
+                           private static void Minnesota() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMinnesota = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMinnesota = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMinnesota = new JLabel("State Flower: Pink and White Lady Slipper");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMinnesota = new JLabel("State Bird: Common Loon");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Mississippi
+                           private static void Mississippi() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMississi = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMississipi = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMissippi = new JLabel("State Flower: Mangolia");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMississippi = new JLabel("State Bird: Mockingbird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Missouri
+                           private static void Missouri() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMissouri = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMissouri = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMissouri = new JLabel("State Flower: White Hawkthorn Blossom");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMissouri = new JLabel("State Bird: Bluebird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                      
+                       // Montana
+                           private static void Montana() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelMontana = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelMontana = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelMontana = new JLabel("State Flower: Bitterroot");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelMontana = new JLabel("State Bird: Western Meadowlark");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Nebraska
+                           private static void Nebraska() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNebraska = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNebraska = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNebraska = new JLabel("State Flower: Goldenrod");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNebraska = new JLabel("State Bird: Western Meadowlark");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Nevada
+                           private static void Nevada() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNevada = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNevada = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNevada = new JLabel("State Flower: Sagebrush");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNevada = new JLabel("State Bird: Mountain Bluebird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // NewHampshire
+                           private static void NewHampshire() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNewHampshire = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNewHampshire = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNewHampshire = new JLabel("State Flower: Purple Lilac");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNewHampshire = new JLabel("State Bird: Purple Finch");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // NewJersey
+                           private static void NewJersey() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNewJersey = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNewJersey = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNewJersey = new JLabel("State Flower: Violet");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNewJersey = new JLabel("State Bird: Eastern Goldfinch");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // NewMexico
+                           private static void NewMexico() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNewMexico = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNewMexico = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNewMexico = new JLabel("State Flower: Yucca Flower");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNewMexico = new JLabel("State Bird: RoadRunner");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // NewYork
+                           private static void NewYork() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNewYork = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNewYork = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNewYork = new JLabel("State Flower: Rose");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNewYork = new JLabel("State Bird: Eastren Bluebird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // North Carolina
+                           private static void NorthCarolina() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNorthCarolina = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNorthCarolina = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNorthCarolina = new JLabel("State Flower: American Dogwood");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNorthCarolina = new JLabel("State Bird: Cardinal");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // NorthDakota
+                           private static void NorthDakota() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelNorthDakota = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelNorthDakota = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelNorthDakota = new JLabel("State Flower: Wild Prairie Rose");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelNorthDakota = new JLabel("State Bird: Western Meadowlark");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Ohio
+                           private static void Ohio() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelOhio = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelOhio = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelOhio = new JLabel("State Flower: Scarlet Carnation");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelOhio = new JLabel("State Bird: Cardinal");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Oklahoma
+                           private static void Oklahoma() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelOklahoma = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelOklahoma = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelOklahoma = new JLabel("State Flower: Oklahoma Rose");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelOklohamo = new JLabel("State Bird: Scissor-Tailed Flycatcher");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Oregon
+                           private static void Oregon() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelOregon = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelOregon = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelOregon = new JLabel("State Flower: Oregon Grape");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelOregon = new JLabel("State Bird: Weastern Meadowlark");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Pennsylvania
+                           private static void Pennsylvania() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelPennsylvania = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelPennsylvania = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelPennsylvania = new JLabel("State Flower: Mountain Laurel");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelPennsylvania = new JLabel("State Bird: Ruffed Grouse");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // RhodeIsland
+                           private static void RhodeIsland() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelRhodeIsland = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelRhodeIsland = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelRhodeIsland = new JLabel("State Flower: Common Blue Violet");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelRhodeIsland = new JLabel("State Bird: Rhode Island Red Hen");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // SouthCarolina
+                           private static void SouthCarolina() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelSouthCarolina = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelSouthCarolina = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelSouthCarolina = new JLabel("State Flower: Yellow Jessamine");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelSouthCarolina = new JLabel("State Bird: Carolina Wren");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // SouthDakota
+                           private static void SouthDakota() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelSouthDakota = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelSouthDakota = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelSouthDakota = new JLabel("State Flower: Americiana Pasque");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelSouthDakota = new JLabel("State Bird: Ring-necked Pheasant");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Tennessee
+                           private static void Tennessee() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelTennessee = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelTennessee = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelTennessee = new JLabel("State Flower: Iris");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelTennessee = new JLabel("State Bird: Mockingbird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Texas
+                           private static void Texas() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelTexas = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelTexas = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelTexas = new JLabel("State Flower: Blue Bonnet");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelTexas = new JLabel("State Bird: Mockingbird");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Utah
+                           private static void Utah() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelUtah = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelUtah = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelUtah = new JLabel("State Flower: Sego Lily");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelUtah = new JLabel("State Bird: Ring-billed Gull");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+         
+                       // Vermont
+                           private static void Vermont() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelVermont = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelVermont = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelVermont = new JLabel("State Flower: Red Clover");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelVermont = new JLabel("State Bird: Hermit Thrush");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here  
+         
+                       // Virginia
+                           private static void Virginia() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelVirginia = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelVirginia = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelVirginia = new JLabel("State Flower: American Dogwood");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelVirginia = new JLabel("State Bird: Cardinal");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                      
+                       // Washington
+                           private static void Washington() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelWashington = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelWashington = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelWashington = new JLabel("State Flower: Coast Rhododendron");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelWashington = new JLabel("State Bird: Willow Goldfinch");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                      
+                       // WestVirginia
+                           private static void WestVirginia() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelWestVirginia = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelWestVirginia = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelWestVirginia = new JLabel("State Flower: Rhododendron");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelWestVirginia = new JLabel("State Bird: Cardinal");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                      
+                       // Wisconsin
+                           private static void Wisconsin() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelWisconsin = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelWisconsin = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelWisconsin = new JLabel("State Flower: Wood Violet");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelWisconsin = new JLabel("State Bird: Robin");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                      
+                       // Wyoming
+                           private static void Wyoming() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                       JLabel flagLabelWyoming = new JLabel(new ImageIcon("path/to/flag.png"));
+                       panel.add(flagLabel);
+                       // State description
+                       JLabel descriptionLabelWyoming = new JLabel(
+                               "State Description: Beautiful landscapes, rich history, etc.");
+                        panel.add(descriptionLabel);
+                        //State Flower
+                         JLabel flowerLabelWyoming = new JLabel("State Flower: Indian Paintbrush");
+                        panel.add(flowerLabel);
+                       //State Bird
+                       JLabel birdLabelWyoming = new JLabel("State Bird: Western Meadowlark");
+                       panel.add(birdLabel);
+                                                        // Display the frame
+                                frame.setVisible(true);}
+//add audio here   
+                        JButton playSoundButtonWyoming = new JButton("Play Bird Sound");
+                        playSoundButtonWyoming.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                                playSound("path/to/wyomingbird.wav");
+                        }
+                        });
+                        panel.add(playSoundButtonWyoming);}
+    
+                        private static void e() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                        
+                                // Create a panel to hold all components
+                                JPanel panel = new JPanel();
+                                panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+                                frame.add(panel);
+                        
+                                    private static void test() {
+                                // Create the main frame
+                                JFrame frame = new JFrame("State Info");
+                                frame.setSize(800, 800);
+                                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+//State flag
+                                JLabel flagLabel = new JLabel(new ImageIcon("path/to/flag.png"));
+                                panel.add(flagLabel);
+                        
+                                // State description
+                                JLabel descriptionLabel = new JLabel(
+                                        "State Description: Beautiful landscapes, rich history, etc.");
+                                panel.add(descriptionLabel);
+                        
+                                // State flower
+                                JLabel flowerLabel = new JLabel("State Flower: Bluebonnet");
+                                panel.add(flowerLabel);
+                        
+                                // State bird
+                                JLabel birdLabel = new JLabel("State Bird: Mockingbird");
+                                panel.add(birdLabel);
+                        
+                                // Display the frame
+                                frame.setVisible(true);}}
