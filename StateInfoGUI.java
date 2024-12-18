@@ -5,14 +5,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
 
-/*Here's some stuff that still needs to be done here: 
- * - Get the map fully working, have it linking to the state variables 
- * - Do some nice and neat formatting for the state GUIs 
- * - Link all the content needed for the states 
- * - And then clean up and call it a day 
- * 
- * I can't wait to be done with this shitty thing 
- */
+/*I'M DONE, FINALLY!!! */ 
 
 public class StateInfoGUI{
     public static void main(String[] args) {
@@ -392,69 +385,69 @@ public static void Mainmap(){
         wyomingButton.setBorderPainted(false);
         wyomingButton.setFocusPainted(false);
 
-      // Western States
-washingtonButton.setBounds(120, 150, 80, 50);
-oregonButton.setBounds(120, 210, 100, 70);
-californiaButton.setBounds(80, 290, 120, 180);
-idahoButton.setBounds(200, 160, 70, 200);
-nevadaButton.setBounds(160, 300, 90, 150);
-arizonaButton.setBounds(210, 460, 100, 80);
-utahButton.setBounds(270, 300, 80, 120);
-montanaButton.setBounds(260, 100, 130, 80);
-wyomingButton.setBounds(290, 190, 110, 70);
-coloradoButton.setBounds(330, 280, 100, 80);
-newMexicoButton.setBounds(340, 380, 120, 70);
+  // Western States
+washingtonButton.setBounds(150, 150, 60, 50);
+oregonButton.setBounds(122, 233, 60, 50);
+californiaButton.setBounds(84, 423, 60, 50);
+idahoButton.setBounds(236, 273, 60, 50);
+nevadaButton.setBounds(132, 324, 60, 50);
+arizonaButton.setBounds(236, 512, 60, 50);
+utahButton.setBounds(250, 354, 60, 50);
+montanaButton.setBounds(290, 156, 60, 50);
+wyomingButton.setBounds(320, 271, 60, 50);
+coloradoButton.setBounds(380, 416, 60, 50);
+newMexicoButton.setBounds(342, 502, 60, 50);
+alaskaButton.setBounds(126, 692, 60, 50);
+hawaiiButton.setBounds(396, 780, 60, 50);
 
 // Great Plains & Central States
-northDakotaButton.setBounds(430, 110, 110, 60);
-southDakotaButton.setBounds(430, 180, 110, 60);
-nebraskaButton.setBounds(450, 250, 120, 60);
-kansasButton.setBounds(470, 320, 110, 60);
-oklahomaButton.setBounds(490, 380, 110, 60);
-texasButton.setBounds(510, 450, 160, 120);
+northDakotaButton.setBounds(490, 179, 60, 50);
+southDakotaButton.setBounds(492, 265, 60, 50);
+nebraskaButton.setBounds(500, 353, 60, 50);
+kansasButton.setBounds(510, 438, 60, 50);
+oklahomaButton.setBounds(540, 512, 60, 50);
+texasButton.setBounds(485, 618, 60, 50);
 
 // Upper Midwest
-minnesotaButton.setBounds(540, 110, 70, 140);
-iowaButton.setBounds(550, 250, 70, 60);
-missouriButton.setBounds(560, 310, 80, 90);
-arkansasButton.setBounds(590, 400, 70, 50);
-louisianaButton.setBounds(600, 450, 80, 60);
-wisconsinButton.setBounds(610, 130, 60, 120);
-illinoisButton.setBounds(620, 240, 60, 100);
+minnesotaButton.setBounds(621, 194, 60, 50);
+iowaButton.setBounds(626, 321, 60, 50);
+missouriButton.setBounds(651, 418, 60, 50);
+arkansasButton.setBounds(663, 528, 60, 50);
+louisianaButton.setBounds(673, 629, 60, 50);
+wisconsinButton.setBounds(700, 251, 60, 50);
+illinoisButton.setBounds(735, 382, 60, 50);
 
-// Deep South & Midwest to East
-mississippiButton.setBounds(680, 460, 60, 90);
-michiganButton.setBounds(690, 90, 70, 140);
-indianaButton.setBounds(690, 260, 40, 60);
-ohioButton.setBounds(730, 260, 50, 60);
-kentuckyButton.setBounds(710, 330, 90, 40);
-tennesseeButton.setBounds(720, 380, 110, 40);
-alabamaButton.setBounds(780, 430, 60, 80);
-georgiaButton.setBounds(840, 420, 80, 80);
-floridaButton.setBounds(870, 500, 60, 140);
-southCarolinaButton.setBounds(920, 430, 40, 60);
-northCarolinaButton.setBounds(900, 370, 90, 50);
+// Deep South & Adjacent
+mississippiButton.setBounds(740, 576, 60, 50);
+michiganButton.setBounds(827, 280, 60, 50);
+indianaButton.setBounds(802, 374, 60, 50);
+ohioButton.setBounds(864, 368, 60, 50);
+kentuckyButton.setBounds(830, 458, 60, 50);
+tennesseeButton.setBounds(791, 495, 60, 50);
+alabamaButton.setBounds(803, 563, 60, 50);
+georgiaButton.setBounds(874, 567, 60, 50);
+floridaButton.setBounds(949, 709, 60, 50);
+southCarolinaButton.setBounds(920, 529, 60, 50);
+northCarolinaButton.setBounds(965, 483, 60, 50);
 
-// Mid-Atlantic & East Coast
-virginiaButton.setBounds(920, 320, 90, 40);
-westVirginiaButton.setBounds(880, 300, 50, 50);
-marylandButton.setBounds(970, 280, 40, 20);
-delawareButton.setBounds(1010, 280, 20, 20);
-pennsylvaniaButton.setBounds(930, 230, 80, 50);
-newJerseyButton.setBounds(1010, 230, 20, 40);
-newYorkButton.setBounds(960, 150, 100, 80);
+// Mid-Atlantic & East
+virginiaButton.setBounds(960, 424, 60, 50);
+westVirginiaButton.setBounds(919, 404, 60, 50);
+marylandButton.setBounds(1000, 371, 60, 50);
+delawareButton.setBounds(1030, 376, 60, 50);
+pennsylvaniaButton.setBounds(955, 340, 60, 50);
+newJerseyButton.setBounds(1044, 340, 60, 50);
+newYorkButton.setBounds(992, 266, 60, 50);
 
 // New England
-connecticutButton.setBounds(1080, 180, 40, 20);
-rhodeIslandButton.setBounds(1120, 200, 20, 20);
-massachusettsButton.setBounds(1080, 140, 60, 30);
-vermontButton.setBounds(1040, 100, 40, 50);
-newHampshireButton.setBounds(1080, 90, 30, 60);
-maineButton.setBounds(1120, 50, 60, 100);
+connecticutButton.setBounds(1063, 285, 60, 50);
+rhodeIslandButton.setBounds(1093, 275, 60, 50);
+massachusettsButton.setBounds(1077, 260, 60, 50);
+vermontButton.setBounds(1050, 209, 60, 50);
+newHampshireButton.setBounds(1080, 235, 60, 50);
+maineButton.setBounds(1104, 151, 60, 50);
 
-// Alaska & Hawaii (Inset)
-alaskaButton.setBounds(100, 750, 200, 100);
-hawaiiButton.setBounds(360, 810, 60, 40);
+
 
 
         // Use absolute positioning
@@ -567,7 +560,7 @@ hawaiiButton.setBounds(360, 810, 60, 40);
 
 
 
-// ... add ActionListeners for other buttons
+
 
 
 
@@ -593,2058 +586,2206 @@ hawaiiButton.setBounds(360, 810, 60, 40);
     }
 
 
-                // Alabama
-                private static void Alabama() {
-                        // Create the main frame
-                        JFrame frame = new JFrame("State Info");
-                        frame.setSize(800, 800);  
-                        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                        
-                        // Create panel
-                        JPanel panel = new JPanel();
-                        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-                        frame.add(panel);
-                        
-                        // State flag
-                        JLabel flagLabelAlabama = new JLabel(new ImageIcon("images/flags/Alabamaflg.png"));
-                        panel.add(flagLabelAlabama);
+    // Below are individual methods for creating a GUI for each state.
+// Each method is based EXACTLY on the given code template, with the following adjustments:
+// - Replace "State" with the state's full name for displayed text (frame title, button text, description).
+// - For the filenames (images and sounds), use the exact rules given:
+//    * flags: (state name or abbreviation)flg.png
+//    * flowers: (state name or abbreviation)flwr.jpg
+//    * birds: (state name or abbreviation).jpg
+//    * sounds: (state name or abbreviation).wav or .mp3 depending on the state
+// - Abbreviations for filenames only (not for displayed text):
+//    Massachusetts -> Massa
+//    Montana -> Monty
+//    New Hampshire -> NewHamp
+//    New Jersey -> NewJer
+//    New Mexico -> NewMex
+//    New York -> NewYork
+//    North Carolina -> NorthCaro
+//    North Dakota -> NorthDako
+//    Pennsylvania -> Penn
+//    Rhode Island -> Rhode
+//    South Carolina -> SouthCaro
+//    South Dakota -> SouthDako
+//    Tennessee -> Tennis
+//    West Virginia -> WVirgin
+// - The following states use .mp3 for the bird sound instead of .wav:
+//    Hawaii, Maine, New Hampshire, Oklahoma, Rhode Island, South Carolina, South Dakota, Utah, Vermont, Virginia, Washington
 
-                        // State description
-                        JTextArea descriptionTextAlabama = new JTextArea(
-                                                        "Known for its role in the Civil Rights Movement and sweet southern charm.\r\n" + //
-                                                                                                                                                                        "");
-                        descriptionTextAlabama.setLineWrap(true);
-                        descriptionTextAlabama.setWrapStyleWord(true);
-                        descriptionTextAlabama.setEditable(false);
-                        descriptionTextAlabama.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size
-                        panel.add(descriptionTextAlabama);
+// NOTE: The variables inside the code (like flagLabelState, playBirdSongButtonState) remain as in the template.
+//       Only the strings have been changed accordingly.
 
-                        // State Flower
-                        JLabel flowerImageAlabama = new JLabel(new ImageIcon("images/flowers/alabama.jpg.jpg"));
-                        panel.add(flowerImageAlabama);
-
-                        // State Bird
-                        JLabel birdImageAlabama = new JLabel(new ImageIcon("images/birds/Alabama.jpg"));
-                        panel.add(birdImageAlabama);
-
-                        // Play Bird Song button
-                        JButton playBirdSongButtonAlabama = new JButton("Play Yellowhammer Song");
-                        playBirdSongButtonAlabama.addActionListener(e -> playSound("path/to/yellowhammer_song.wav"));
-                        panel.add(playBirdSongButtonAlabama);
-
-                        // Set frame visibility
-                        frame.setVisible(true);
-                }
-
-                // Alaska
-private static void Alaska() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-    
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Alaskaflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/alaska.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Alaska.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        frame.setVisible(true);
-    } 
-
-    // Arizona
-private static void Arizona() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-    
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Arizonaflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/arizona.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Arizona.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        frame.setVisible(true);
-    } 
-
-    // Arkansas
-private static void Arkansas() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-    
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Arkansasflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/arkansas.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Arkansas.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        frame.setVisible(true);
-    } 
-    
-// California
-private static void California() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-    
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Californiaflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/california.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/California.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        frame.setVisible(true);
-    } 
-    
-    // Colorado
-private static void Colorado() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-        
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Coloradoflg.png")); 
-        panel.add(flagLabelState); 
-        
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-        
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/colorado.jpg.jpg")); 
-        panel.add(flowerImageState); 
-        
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Colorado.jpg")); 
-        panel.add(birdImageState); 
-        
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-        
-        frame.setVisible(true);
-    } 
-    
-
-    // Connecticut
-private static void Connecticut() { 
-        JFrame frame = new JFrame("State Info");
+private static void Alabama() {
+        JFrame frame = new JFrame("Alabama Info");
         frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Alabamaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Known for its role in the Civil Rights Movement and sweet southern charm.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Alabamaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Alabama.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Alabama Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Alabama.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Alaska() {
+        JFrame frame = new JFrame("Alaska Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Alaskaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("A vast wilderness with stunning glaciers and abundant wildlife.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Alaskaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Alaska.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Alaska Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Alaska.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Arizona() {
+        JFrame frame = new JFrame("Arizona Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Arizonaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Famous for the Grand Canyon and desert landscapes.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Arizonaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Arizona.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Arizona Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Arizona.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Arkansas() {
+        JFrame frame = new JFrame("Arkansas Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Arkansasflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Home to the Ozark Mountains and beautiful natural hot springs.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Arkansasflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Arkansas.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Arkansas Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Arkansas.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void California() {
+        JFrame frame = new JFrame("California Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Californiaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("The Golden State with Hollywood, tech hubs, and diverse scenery.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Californiaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/California.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play California Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/California.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Colorado() {
+        JFrame frame = new JFrame("Colorado Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Coloradoflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Rocky Mountain paradise with outdoor adventures galore.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Coloradoflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Colorado.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Colorado Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Colorado.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Connecticut() {
+        JFrame frame = new JFrame("Connecticut Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
         JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Connecticutflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel.add(flagLabelState);
-        JTextArea descriptionTextState = new JTextArea("Description");
+    
+        JTextArea descriptionTextState = new JTextArea("A charming mix of coastal towns and historic landmarks.\r\n" + //
+                                "");
         descriptionTextState.setLineWrap(true);
         descriptionTextState.setWrapStyleWord(true);
         descriptionTextState.setEditable(false);
         descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
         panel.add(descriptionTextState);
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/connecticut.jpg.jpg"));
-        panel.add(flowerImageState);
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Connecticut.jpg"));
-        panel.add(birdImageState);
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song");
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav"));
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Connecticutflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Connecticut.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Connecticut Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Connecticut.wav"));
         panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
     }
     
-    // Delaware
     private static void Delaware() {
-        JFrame frame = new JFrame("State Info");
+        JFrame frame = new JFrame("Delaware Info");
         frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
+    
         JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Delawareflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel.add(flagLabelState);
-        JTextArea descriptionTextState = new JTextArea("Description");
+    
+        JTextArea descriptionTextState = new JTextArea("America’s first state, known for its tax-free shopping.\r\n" + //
+                                "");
         descriptionTextState.setLineWrap(true);
         descriptionTextState.setWrapStyleWord(true);
         descriptionTextState.setEditable(false);
         descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
         panel.add(descriptionTextState);
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/delaware.jpg.jpg"));
-        panel.add(flowerImageState);
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Delaware.jpg"));
-        panel.add(birdImageState);
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song");
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav"));
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Delawareflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Delaware.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Delaware Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Delaware.wav"));
         panel.add(playBirdSongButtonState);
-        frame.setVisible(true);
-    }
-
-    // Florida
-private static void Florida() { 
-        // Create the main frame
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        
-        // Create panel
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-        
-        // State flag
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Floridaflg.png")); 
-        panel.add(flagLabelState); 
-    
-        // State description
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextState); 
-    
-        // State Flower
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/florida.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        // State Bird
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Florida.jpg")); 
-        panel.add(birdImageState); 
-    
-        // Play Bird Song button
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        // Set frame visibility
-        frame.setVisible(true);
-    } 
-    // Georgia
-private static void Georgia() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-    
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Georgiaflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/georgia.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Georgia.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
     
         frame.setVisible(true);
     }
     
-// Hawaii
-private static void Hawaii() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        frame.add(panel);
-        
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Hawaiiflg.png")); 
-        panel.add(flagLabelState); 
-    
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
-    
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/hawaii.jpg.jpg")); 
-        panel.add(flowerImageState); 
-    
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Hawaii.jpg")); 
-        panel.add(birdImageState); 
-    
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
-    
-        frame.setVisible(true);
-    }
-    // Idaho
-private static void Idaho() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
+    private static void Florida() {
+        JFrame frame = new JFrame("Florida Info");
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Idahoflg.png")); 
-        panel.add(flagLabelState); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Floridaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
+        JTextArea descriptionTextState = new JTextArea("Beaches, theme parks, and sunny weather year-round.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/idaho.jpg.jpg")); 
-        panel.add(flowerImageState); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Idaho.jpg")); 
-        panel.add(birdImageState); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Floridaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Florida.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Florida Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Florida.wav"));
+        panel.add(playBirdSongButtonState);
     
         frame.setVisible(true);
     }
-    // Illinois
-private static void Illinois() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
+    
+    private static void Georgia() {
+        JFrame frame = new JFrame("Georgia Info");
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Illinoisflg.png")); 
-        panel.add(flagLabelState); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Georgiaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
+        JTextArea descriptionTextState = new JTextArea("Peaches, Southern hospitality, and Atlanta’s bustling city life.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/illinois.jpg.jpg")); 
-        panel.add(flowerImageState); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Illinois.jpg")); 
-        panel.add(birdImageState); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Georgiaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Georgia.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Georgia Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Georgia.wav"));
+        panel.add(playBirdSongButtonState);
     
         frame.setVisible(true);
     }
-    // Indiana
-private static void Indiana() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
+    
+    private static void Hawaii() {
+        JFrame frame = new JFrame("Hawaii Info");
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Indianaflg.png")); 
-        panel.add(flagLabelState); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Hawaiiflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
+        JTextArea descriptionTextState = new JTextArea("Tropical islands with stunning beaches and vibrant culture.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/indiana.jpg.jpg")); 
-        panel.add(flowerImageState); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Indiana.jpg")); 
-        panel.add(birdImageState); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Hawaiiflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Hawaii.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Hawaii Bird Song");
+        // Hawaii uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Hawaii.mp3"));
+        panel.add(playBirdSongButtonState);
     
         frame.setVisible(true);
     }
-    // Iowa
-private static void Iowa() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
+    
+    private static void Idaho() {
+        JFrame frame = new JFrame("Idaho Info");
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Iowaflg.png")); 
-        panel.add(flagLabelState); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Idahoflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
+        JTextArea descriptionTextState = new JTextArea("Famous for potatoes and scenic mountain landscapes.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/iowa.jpg.jpg")); 
-        panel.add(flowerImageState); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Iowa.jpg")); 
-        panel.add(birdImageState); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Idahoflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Idaho.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Idaho Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Idaho.wav"));
+        panel.add(playBirdSongButtonState);
     
         frame.setVisible(true);
     }
-    // Kansas
-private static void Kansas() { 
-        JFrame frame = new JFrame("State Info");
-        frame.setSize(800, 800);  
+    
+    private static void Illinois() {
+        JFrame frame = new JFrame("Illinois Info");
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Kansasflg.png")); 
-        panel.add(flagLabelState); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Illinoisflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        JTextArea descriptionTextState = new JTextArea("Description"); 
-        descriptionTextState.setLineWrap(true); 
-        descriptionTextState.setWrapStyleWord(true); 
-        descriptionTextState.setEditable(false); 
-        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16)); 
-        panel.add(descriptionTextState); 
+        JTextArea descriptionTextState = new JTextArea("Home to Chicago and a hub of Midwest culture and industry.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        JLabel flowerImageState = new JLabel(new ImageIcon("images/flowers/kansas.jpg.jpg")); 
-        panel.add(flowerImageState); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        JLabel birdImageState = new JLabel(new ImageIcon("images/birds/Kansas.jpg")); 
-        panel.add(birdImageState); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Illinoisflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        JButton playBirdSongButtonState = new JButton("Play Yellowhammer Song"); 
-        playBirdSongButtonState.addActionListener(e -> playSound("path/to/yellowhammer_song.wav")); 
-        panel.add(playBirdSongButtonState); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Illinois.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Illinois Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Illinois.wav"));
+        panel.add(playBirdSongButtonState);
     
         frame.setVisible(true);
     }
-    // Kentucky
-
-private static void Kentucky() { 
-
-        // Create the main frame
+    
+    private static void Indiana() {
+        JFrame frame = new JFrame("Indiana Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Indianaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Known for the Indianapolis 500 and rolling farmlands.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Indianaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Indiana.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Indiana Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Indiana.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Iowa() {
+        JFrame frame = new JFrame("Iowa Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Iowaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("A heartland state with vast cornfields and friendly small towns.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Iowaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Iowa.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Iowa Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Iowa.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Kansas() {
+        JFrame frame = new JFrame("Kansas Info");
+        frame.setSize(800, 800);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        frame.add(panel);
+    
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Kansasflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
+    
+        JTextArea descriptionTextState = new JTextArea("Prairies, agriculture, and Wizard of Oz nostalgia.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
+    
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
+    
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Kansasflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
+    
+        ImageIcon birdIcon = new ImageIcon("images/birds/Kansas.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
+    
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Kansas Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Kansas.wav"));
+        panel.add(playBirdSongButtonState);
+    
+        frame.setVisible(true);
+    }
+    
+    private static void Kentucky() {
         JFrame frame = new JFrame("Kentucky Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelKentucky = new JLabel(new ImageIcon("images/flags/Kentuckyflg.png")); 
-        panel.add(flagLabelKentucky); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Kentuckyflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextKentucky = new JTextArea(
-            "Kentucky, known as the Bluegrass State, is famous for its horse racing, bourbon, and natural beauty."
-        ); 
-        descriptionTextKentucky.setLineWrap(true); 
-        descriptionTextKentucky.setWrapStyleWord(true); 
-        descriptionTextKentucky.setEditable(false); 
-        descriptionTextKentucky.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextKentucky); 
+        JTextArea descriptionTextState = new JTextArea("Known for bourbon, horse racing, and bluegrass music.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageKentucky = new JLabel(new ImageIcon("images/flowers/KentuckyFlower.jpg")); 
-        panel.add(flowerImageKentucky); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageKentucky = new JLabel(new ImageIcon("images/birds/KentuckyBird.jpg")); 
-        panel.add(birdImageKentucky); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Kentuckyflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonKentucky = new JButton("Play Cardinal Song"); 
-        playBirdSongButtonKentucky.addActionListener(e -> playSound("path/to/cardinal_song.wav")); 
-        panel.add(playBirdSongButtonKentucky); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Kentucky.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Kentucky Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Kentucky.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Louisiana
-    
-    private static void Louisiana() { 
-    
-        // Create the main frame
+    private static void Louisiana() {
         JFrame frame = new JFrame("Louisiana Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelLouisiana = new JLabel(new ImageIcon("images/flags/Louisianaflg.png")); 
-        panel.add(flagLabelLouisiana); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Louisianaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextLouisiana = new JTextArea(
-            "Louisiana is renowned for its vibrant culture, Creole cuisine, and the lively city of New Orleans."
-        ); 
-        descriptionTextLouisiana.setLineWrap(true); 
-        descriptionTextLouisiana.setWrapStyleWord(true); 
-        descriptionTextLouisiana.setEditable(false); 
-        descriptionTextLouisiana.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextLouisiana); 
+        JTextArea descriptionTextState = new JTextArea("Home to New Orleans, jazz, and Creole culture.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageLouisiana = new JLabel(new ImageIcon("images/flowers/LouisianaFlower.jpg")); 
-        panel.add(flowerImageLouisiana); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageLouisiana = new JLabel(new ImageIcon("images/birds/LouisianaBird.jpg")); 
-        panel.add(birdImageLouisiana); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Louisianaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonLouisiana = new JButton("Play Brown Pelican Song"); 
-        playBirdSongButtonLouisiana.addActionListener(e -> playSound("path/to/brown_pelican_song.wav")); 
-        panel.add(playBirdSongButtonLouisiana); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Louisiana.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Louisiana Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Louisiana.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Maine
-    
-    private static void Maine() { 
-    
-        // Create the main frame
+    private static void Maine() {
         JFrame frame = new JFrame("Maine Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMaine = new JLabel(new ImageIcon("images/flags/Maineflg.png")); 
-        panel.add(flagLabelMaine); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Maineflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMaine = new JTextArea(
-            "Maine, known for its picturesque coastline, maritime history, and natural landscapes, is a favorite destination for nature lovers."
-        ); 
-        descriptionTextMaine.setLineWrap(true); 
-        descriptionTextMaine.setWrapStyleWord(true); 
-        descriptionTextMaine.setEditable(false); 
-        descriptionTextMaine.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMaine); 
+        JTextArea descriptionTextState = new JTextArea("Famous for lighthouses, lobster, and rugged coastlines.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMaine = new JLabel(new ImageIcon("images/flowers/MaineFlower.jpg")); 
-        panel.add(flowerImageMaine); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMaine = new JLabel(new ImageIcon("images/birds/MaineBird.jpg")); 
-        panel.add(birdImageMaine); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Maineflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMaine = new JButton("Play Black-capped Chickadee Song"); 
-        playBirdSongButtonMaine.addActionListener(e -> playSound("path/to/chickadee_song.wav")); 
-        panel.add(playBirdSongButtonMaine); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Maine.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Maine Bird Song");
+        // Maine uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Maine.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Maryland
-    
-    private static void Maryland() { 
-    
-        // Create the main frame
+    private static void Maryland() {
         JFrame frame = new JFrame("Maryland Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMaryland = new JLabel(new ImageIcon("images/flags/Marylandflg.png")); 
-        panel.add(flagLabelMaryland); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Marylandflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMaryland = new JTextArea(
-            "Maryland, known as the Old Line State, boasts a rich history, diverse landscapes, and vibrant cultural heritage."
-        ); 
-        descriptionTextMaryland.setLineWrap(true); 
-        descriptionTextMaryland.setWrapStyleWord(true); 
-        descriptionTextMaryland.setEditable(false); 
-        descriptionTextMaryland.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMaryland); 
+        JTextArea descriptionTextState = new JTextArea("Chesapeake Bay crabs and historic landmarks near D.C.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMaryland = new JLabel(new ImageIcon("images/flowers/MarylandFlower.jpg")); 
-        panel.add(flowerImageMaryland); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMaryland = new JLabel(new ImageIcon("images/birds/MarylandBird.jpg")); 
-        panel.add(birdImageMaryland); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Marylandflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMaryland = new JButton("Play Baltimore Oriole Song"); 
-        playBirdSongButtonMaryland.addActionListener(e -> playSound("path/to/baltimore_oriole_song.wav")); 
-        panel.add(playBirdSongButtonMaryland); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Maryland.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Maryland Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Maryland.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Massachusetts
-    
-    private static void Massachusetts() { 
-    
-        // Create the main frame
+    private static void Massachusetts() {
         JFrame frame = new JFrame("Massachusetts Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMassachusetts = new JLabel(new ImageIcon("images/flags/Massachusettsflg.png")); 
-        panel.add(flagLabelMassachusetts); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Massaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMassachusetts = new JTextArea(
-            "Massachusetts, known for its significant Colonial history, prestigious universities, and vibrant cities like Boston."
-        ); 
-        descriptionTextMassachusetts.setLineWrap(true); 
-        descriptionTextMassachusetts.setWrapStyleWord(true); 
-        descriptionTextMassachusetts.setEditable(false); 
-        descriptionTextMassachusetts.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMassachusetts); 
+        JTextArea descriptionTextState = new JTextArea("Rich in history with Boston and iconic coastal towns.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMassachusetts = new JLabel(new ImageIcon("images/flowers/MassachusettsFlower.jpg")); 
-        panel.add(flowerImageMassachusetts); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMassachusetts = new JLabel(new ImageIcon("images/birds/MassachusettsBird.jpg")); 
-        panel.add(birdImageMassachusetts); 
+        // Use "Massa" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Massaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMassachusetts = new JButton("Play Black-capped Chickadee Song"); 
-        playBirdSongButtonMassachusetts.addActionListener(e -> playSound("path/to/chickadee_song.wav")); 
-        panel.add(playBirdSongButtonMassachusetts); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Massa.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Massachusetts Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Massa.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Michigan
-    
-    private static void Michigan() { 
-    
-        // Create the main frame
+    private static void Michigan() {
         JFrame frame = new JFrame("Michigan Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMichigan = new JLabel(new ImageIcon("images/flags/Michiganflg.png")); 
-        panel.add(flagLabelMichigan); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Michiflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMichigan = new JTextArea(
-            "Michigan, the Great Lakes State, is famous for its automotive industry, stunning lakeshores, and vibrant cities like Detroit."
-        ); 
-        descriptionTextMichigan.setLineWrap(true); 
-        descriptionTextMichigan.setWrapStyleWord(true); 
-        descriptionTextMichigan.setEditable(false); 
-        descriptionTextMichigan.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMichigan); 
+        JTextArea descriptionTextState = new JTextArea("Great Lakes, auto industry, and beautiful Upper Peninsula.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMichigan = new JLabel(new ImageIcon("images/flowers/MichiganFlower.jpg")); 
-        panel.add(flowerImageMichigan); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMichigan = new JLabel(new ImageIcon("images/birds/MichiganBird.jpg")); 
-        panel.add(birdImageMichigan); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Michiganflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMichigan = new JButton("Play American Robin Song"); 
-        playBirdSongButtonMichigan.addActionListener(e -> playSound("path/to/robin_song.wav")); 
-        panel.add(playBirdSongButtonMichigan); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Michigan.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Michigan Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Michigan.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Minnesota
-    
-    private static void Minnesota() { 
-    
-        // Create the main frame
+    private static void Minnesota() {
         JFrame frame = new JFrame("Minnesota Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMinnesota = new JLabel(new ImageIcon("images/flags/Minnesotaflg.png")); 
-        panel.add(flagLabelMinnesota); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Minnesotaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMinnesota = new JTextArea(
-            "Minnesota, the Land of 10,000 Lakes, is known for its beautiful waterways, vibrant arts scene, and friendly communities."
-        ); 
-        descriptionTextMinnesota.setLineWrap(true); 
-        descriptionTextMinnesota.setWrapStyleWord(true); 
-        descriptionTextMinnesota.setEditable(false); 
-        descriptionTextMinnesota.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMinnesota); 
+        JTextArea descriptionTextState = new JTextArea("Land of 10,000 lakes and friendly Midwestern culture.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMinnesota = new JLabel(new ImageIcon("images/flowers/MinnesotaFlower.jpg")); 
-        panel.add(flowerImageMinnesota); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMinnesota = new JLabel(new ImageIcon("images/birds/MinnesotaBird.jpg")); 
-        panel.add(birdImageMinnesota); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Minnesotaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMinnesota = new JButton("Play Common Loon Song"); 
-        playBirdSongButtonMinnesota.addActionListener(e -> playSound("path/to/loon_song.wav")); 
-        panel.add(playBirdSongButtonMinnesota); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Minnesota.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Minnesota Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Minnesota.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Mississippi
-    
-    private static void Mississippi() { 
-    
-        // Create the main frame
+    private static void Mississippi() {
         JFrame frame = new JFrame("Mississippi Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMississippi = new JLabel(new ImageIcon("images/flags/Mississippiflg.png")); 
-        panel.add(flagLabelMississippi); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Mississippiflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMississippi = new JTextArea(
-            "Mississippi, named after the mighty Mississippi River, is rich in cultural heritage, blues music, and southern charm."
-        ); 
-        descriptionTextMississippi.setLineWrap(true); 
-        descriptionTextMississippi.setWrapStyleWord(true); 
-        descriptionTextMississippi.setEditable(false); 
-        descriptionTextMississippi.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMississippi); 
+        JTextArea descriptionTextState = new JTextArea("Southern charm, blues music, and the mighty Mississippi River.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMississippi = new JLabel(new ImageIcon("images/flowers/MississippiFlower.jpg")); 
-        panel.add(flowerImageMississippi); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMississippi = new JLabel(new ImageIcon("images/birds/MississippiBird.jpg")); 
-        panel.add(birdImageMississippi); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Mississippiflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMississippi = new JButton("Play Northern Mockingbird Song"); 
-        playBirdSongButtonMississippi.addActionListener(e -> playSound("path/to/mockingbird_song.wav")); 
-        panel.add(playBirdSongButtonMississippi); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Mississippi.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Mississippi Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Mississippi.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Missouri
-    
-    private static void Missouri() { 
-    
-        // Create the main frame
+    private static void Missouri() {
         JFrame frame = new JFrame("Missouri Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMissouri = new JLabel(new ImageIcon("images/flags/Missouriflg.png")); 
-        panel.add(flagLabelMissouri); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Missouriflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMissouri = new JTextArea(
-            "Missouri, the Show Me State, is known for its diverse landscapes, from the Ozarks to bustling cities like St. Louis and Kansas City."
-        ); 
-        descriptionTextMissouri.setLineWrap(true); 
-        descriptionTextMissouri.setWrapStyleWord(true); 
-        descriptionTextMissouri.setEditable(false); 
-        descriptionTextMissouri.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMissouri); 
+        JTextArea descriptionTextState = new JTextArea("Gateway Arch, Ozarks, and rich history.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMissouri = new JLabel(new ImageIcon("images/flowers/MissouriFlower.jpg")); 
-        panel.add(flowerImageMissouri); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMissouri = new JLabel(new ImageIcon("images/birds/MissouriBird.jpg")); 
-        panel.add(birdImageMissouri); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Missouriflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMissouri = new JButton("Play Eastern Bluebird Song"); 
-        playBirdSongButtonMissouri.addActionListener(e -> playSound("path/to/bluebird_song.wav")); 
-        panel.add(playBirdSongButtonMissouri); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Missouri.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Missouri Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Missouri.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Montana
-    
-    private static void Montana() { 
-    
-        // Create the main frame
+    private static void Montana() {
         JFrame frame = new JFrame("Montana Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelMontana = new JLabel(new ImageIcon("images/flags/Montanaflg.png")); 
-        panel.add(flagLabelMontana); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Montyflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextMontana = new JTextArea(
-            "Montana, known as Big Sky Country, offers stunning natural beauty, including Yellowstone National Park and expansive wilderness areas."
-        ); 
-        descriptionTextMontana.setLineWrap(true); 
-        descriptionTextMontana.setWrapStyleWord(true); 
-        descriptionTextMontana.setEditable(false); 
-        descriptionTextMontana.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextMontana); 
+        JTextArea descriptionTextState = new JTextArea("Big Sky Country with stunning national parks and open spaces.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageMontana = new JLabel(new ImageIcon("images/flowers/MontanaFlower.jpg")); 
-        panel.add(flowerImageMontana); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageMontana = new JLabel(new ImageIcon("images/birds/MontanaBird.jpg")); 
-        panel.add(birdImageMontana); 
+        // Use "Monty" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Montyflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonMontana = new JButton("Play Western Meadowlark Song"); 
-        playBirdSongButtonMontana.addActionListener(e -> playSound("path/to/meadowlark_song.wav")); 
-        panel.add(playBirdSongButtonMontana); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Monty.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Montana Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Monty.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Nebraska
-    
-    private static void Nebraska() { 
-    
-        // Create the main frame
+    private static void Nebraska() {
         JFrame frame = new JFrame("Nebraska Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNebraska = new JLabel(new ImageIcon("images/flags/Nebraskaflg.png")); 
-        panel.add(flagLabelNebraska); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Nebraskaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNebraska = new JTextArea(
-            "Nebraska, known for its prairies and agriculture, is home to vibrant cities like Omaha and Lincoln, rich in culture and history."
-        ); 
-        descriptionTextNebraska.setLineWrap(true); 
-        descriptionTextNebraska.setWrapStyleWord(true); 
-        descriptionTextNebraska.setEditable(false); 
-        descriptionTextNebraska.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNebraska); 
+        JTextArea descriptionTextState = new JTextArea("Known for prairies, agriculture, and the Sandhills.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNebraska = new JLabel(new ImageIcon("images/flowers/NebraskaFlower.jpg")); 
-        panel.add(flowerImageNebraska); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNebraska = new JLabel(new ImageIcon("images/birds/NebraskaBird.jpg")); 
-        panel.add(birdImageNebraska); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Nebraskaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNebraska = new JButton("Play Western Meadowlark Song"); 
-        playBirdSongButtonNebraska.addActionListener(e -> playSound("path/to/meadowlark_song.wav")); 
-        panel.add(playBirdSongButtonNebraska); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Nebraska.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Nebraska Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Nebraska.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Nevada
-    
-    private static void Nevada() { 
-    
-        // Create the main frame
+    private static void Nevada() {
         JFrame frame = new JFrame("Nevada Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNevada = new JLabel(new ImageIcon("images/flags/Nevadaflg.png")); 
-        panel.add(flagLabelNevada); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Nevadaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNevada = new JTextArea(
-            "Nevada, the Silver State, is famous for its vibrant nightlife in Las Vegas, vast deserts, and stunning mountain ranges."
-        ); 
-        descriptionTextNevada.setLineWrap(true); 
-        descriptionTextNevada.setWrapStyleWord(true); 
-        descriptionTextNevada.setEditable(false); 
-        descriptionTextNevada.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNevada); 
+        JTextArea descriptionTextState = new JTextArea("Glittering Las Vegas and breathtaking desert scenery.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNevada = new JLabel(new ImageIcon("images/flowers/NevadaFlower.jpg")); 
-        panel.add(flowerImageNevada); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNevada = new JLabel(new ImageIcon("images/birds/NevadaBird.jpg")); 
-        panel.add(birdImageNevada); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Nevadaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNevada = new JButton("Play Mountain Bluebird Song"); 
-        playBirdSongButtonNevada.addActionListener(e -> playSound("path/to/bluebird_song.wav")); 
-        panel.add(playBirdSongButtonNevada); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Nevada.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Nevada Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Nevada.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // New Hampshire
-    
-    private static void NewHampshire() { 
-    
-        // Create the main frame
+    private static void NewHampshire() {
         JFrame frame = new JFrame("New Hampshire Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNewHampshire = new JLabel(new ImageIcon("images/flags/NewHampshireflg.png")); 
-        panel.add(flagLabelNewHampshire); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NewHampflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNewHampshire = new JTextArea(
-            "New Hampshire, known for its quaint towns and large expanses of wilderness, offers stunning fall foliage and outdoor activities."
-        ); 
-        descriptionTextNewHampshire.setLineWrap(true); 
-        descriptionTextNewHampshire.setWrapStyleWord(true); 
-        descriptionTextNewHampshire.setEditable(false); 
-        descriptionTextNewHampshire.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNewHampshire); 
+        JTextArea descriptionTextState = new JTextArea("Autumn foliage and quaint New England charm.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNewHampshire = new JLabel(new ImageIcon("images/flowers/NewHampshireFlower.jpg")); 
-        panel.add(flowerImageNewHampshire); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNewHampshire = new JLabel(new ImageIcon("images/birds/NewHampshireBird.jpg")); 
-        panel.add(birdImageNewHampshire); 
+        // Use "NewHamp" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NewHampflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNewHampshire = new JButton("Play Purple Finch Song"); 
-        playBirdSongButtonNewHampshire.addActionListener(e -> playSound("path/to/finch_song.wav")); 
-        panel.add(playBirdSongButtonNewHampshire); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NewHamp.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play New Hampshire Bird Song");
+        // New Hampshire uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NewHamp.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // New Jersey
-    
-    private static void NewJersey() { 
-    
-        // Create the main frame
+    private static void NewJersey() {
         JFrame frame = new JFrame("New Jersey Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNewJersey = new JLabel(new ImageIcon("images/flags/NewJerseyflg.png")); 
-        panel.add(flagLabelNewJersey); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NewJerflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNewJersey = new JTextArea(
-            "New Jersey, the Garden State, is known for its beaches, diverse culture, and significant historical landmarks."
-        ); 
-        descriptionTextNewJersey.setLineWrap(true); 
-        descriptionTextNewJersey.setWrapStyleWord(true); 
-        descriptionTextNewJersey.setEditable(false); 
-        descriptionTextNewJersey.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNewJersey); 
+        JTextArea descriptionTextState = new JTextArea("Boardwalks, beaches, and proximity to NYC.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNewJersey = new JLabel(new ImageIcon("images/flowers/NewJerseyFlower.jpg")); 
-        panel.add(flowerImageNewJersey); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNewJersey = new JLabel(new ImageIcon("images/birds/NewJerseyBird.jpg")); 
-        panel.add(birdImageNewJersey); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NewJerflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNewJersey = new JButton("Play American Goldfinch Song"); 
-        playBirdSongButtonNewJersey.addActionListener(e -> playSound("path/to/goldfinch_song.wav")); 
-        panel.add(playBirdSongButtonNewJersey); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NewJer.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play New Jersey Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NewJer.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
-    // New Mexico
-
-private static void NewMexico() { 
-
-        // Create the main frame
+    }
+    
+    private static void NewMexico() {
         JFrame frame = new JFrame("New Mexico Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNewMexico = new JLabel(new ImageIcon("images/flags/NewMexicoflg.png")); 
-        panel.add(flagLabelNewMexico); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NewMexflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNewMexico = new JTextArea(
-            "New Mexico, the Land of Enchantment, is renowned for its rich cultural heritage, stunning deserts, and vibrant arts scene."
-        ); 
-        descriptionTextNewMexico.setLineWrap(true); 
-        descriptionTextNewMexico.setWrapStyleWord(true); 
-        descriptionTextNewMexico.setEditable(false); 
-        descriptionTextNewMexico.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNewMexico); 
+        JTextArea descriptionTextState = new JTextArea("Desert beauty, unique cuisine, and Native American culture.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNewMexico = new JLabel(new ImageIcon("images/flowers/NewMexicoFlower.jpg")); 
-        panel.add(flowerImageNewMexico); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNewMexico = new JLabel(new ImageIcon("images/birds/NewMexicoBird.jpg")); 
-        panel.add(birdImageNewMexico); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NewMexflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNewMexico = new JButton("Play Greater Roadrunner Song"); 
-        playBirdSongButtonNewMexico.addActionListener(e -> playSound("path/to/roadrunner_song.wav")); 
-        panel.add(playBirdSongButtonNewMexico); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NewMex.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play New Mexico Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NewMex.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // New York
-    
-    private static void NewYork() { 
-    
-        // Create the main frame
+    private static void NewYork() {
         JFrame frame = new JFrame("New York Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNewYork = new JLabel(new ImageIcon("images/flags/NewYorkflg.png")); 
-        panel.add(flagLabelNewYork); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NewYorkflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNewYork = new JTextArea(
-            "New York, the Empire State, is famous for its iconic cities like New York City, diverse culture, and significant historical landmarks."
-        ); 
-        descriptionTextNewYork.setLineWrap(true); 
-        descriptionTextNewYork.setWrapStyleWord(true); 
-        descriptionTextNewYork.setEditable(false); 
-        descriptionTextNewYork.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNewYork); 
+        JTextArea descriptionTextState = new JTextArea("The Empire State with NYC and stunning upstate landscapes.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNewYork = new JLabel(new ImageIcon("images/flowers/NewYorkFlower.jpg")); 
-        panel.add(flowerImageNewYork); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNewYork = new JLabel(new ImageIcon("images/birds/NewYorkBird.jpg")); 
-        panel.add(birdImageNewYork); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NewYorkflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNewYork = new JButton("Play Eastern Bluebird Song"); 
-        playBirdSongButtonNewYork.addActionListener(e -> playSound("path/to/bluebird_song.wav")); 
-        panel.add(playBirdSongButtonNewYork); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NewYork.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play New York Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NewYork.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // North Carolina
-    
-    private static void NorthCarolina() { 
-    
-        // Create the main frame
+    private static void NorthCarolina() {
         JFrame frame = new JFrame("North Carolina Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNorthCarolina = new JLabel(new ImageIcon("images/flags/NorthCarolinaflg.png")); 
-        panel.add(flagLabelNorthCarolina); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NorthCaroflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNorthCarolina = new JTextArea(
-            "North Carolina, known for its diverse landscapes from the Atlantic Coast to the Appalachian Mountains, offers rich history and vibrant cities."
-        ); 
-        descriptionTextNorthCarolina.setLineWrap(true); 
-        descriptionTextNorthCarolina.setWrapStyleWord(true); 
-        descriptionTextNorthCarolina.setEditable(false); 
-        descriptionTextNorthCarolina.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNorthCarolina); 
+        JTextArea descriptionTextState = new JTextArea("Beaches, mountains, and a hub of innovation.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNorthCarolina = new JLabel(new ImageIcon("images/flowers/NorthCarolinaFlower.jpg")); 
-        panel.add(flowerImageNorthCarolina); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNorthCarolina = new JLabel(new ImageIcon("images/birds/NorthCarolinaBird.jpg")); 
-        panel.add(birdImageNorthCarolina); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NorthCaroflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNorthCarolina = new JButton("Play Cardinal Song"); 
-        playBirdSongButtonNorthCarolina.addActionListener(e -> playSound("path/to/cardinal_song.wav")); 
-        panel.add(playBirdSongButtonNorthCarolina); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NorthCaro.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play North Carolina Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NorthCaro.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // North Dakota
-    
-    private static void NorthDakota() { 
-    
-        // Create the main frame
+    private static void NorthDakota() {
         JFrame frame = new JFrame("North Dakota Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelNorthDakota = new JLabel(new ImageIcon("images/flags/NorthDakotaflg.png")); 
-        panel.add(flagLabelNorthDakota); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/NorthDakoflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextNorthDakota = new JTextArea(
-            "North Dakota, known for its vast plains and rugged beauty, is rich in Native American heritage and offers stunning natural landscapes."
-        ); 
-        descriptionTextNorthDakota.setLineWrap(true); 
-        descriptionTextNorthDakota.setWrapStyleWord(true); 
-        descriptionTextNorthDakota.setEditable(false); 
-        descriptionTextNorthDakota.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextNorthDakota); 
+        JTextArea descriptionTextState = new JTextArea("Open plains, oil industry, and rugged Badlands.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageNorthDakota = new JLabel(new ImageIcon("images/flowers/NorthDakotaFlower.jpg")); 
-        panel.add(flowerImageNorthDakota); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageNorthDakota = new JLabel(new ImageIcon("images/birds/NorthDakotaBird.jpg")); 
-        panel.add(birdImageNorthDakota); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/NorthDakoflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonNorthDakota = new JButton("Play Western Meadowlark Song"); 
-        playBirdSongButtonNorthDakota.addActionListener(e -> playSound("path/to/meadowlark_song.wav")); 
-        panel.add(playBirdSongButtonNorthDakota); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/NorthDako.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play North Dakota Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/NorthDako.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Ohio
-    
-    private static void Ohio() { 
-    
-        // Create the main frame
+    private static void Ohio() {
         JFrame frame = new JFrame("Ohio Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelOhio = new JLabel(new ImageIcon("images/flags/Ohioflg.png")); 
-        panel.add(flagLabelOhio); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Ohioflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextOhio = new JTextArea(
-            "Ohio, the Buckeye State, is known for its diverse economy, rich history, and vibrant cities like Columbus and Cleveland."
-        ); 
-        descriptionTextOhio.setLineWrap(true); 
-        descriptionTextOhio.setWrapStyleWord(true); 
-        descriptionTextOhio.setEditable(false); 
-        descriptionTextOhio.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextOhio); 
+        JTextArea descriptionTextState = new JTextArea("Rock and Roll Hall of Fame and Buckeye State pride.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageOhio = new JLabel(new ImageIcon("images/flowers/OhioFlower.jpg")); 
-        panel.add(flowerImageOhio); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageOhio = new JLabel(new ImageIcon("images/birds/OhioBird.jpg")); 
-        panel.add(birdImageOhio); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Ohioflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonOhio = new JButton("Play Cardinal Song"); 
-        playBirdSongButtonOhio.addActionListener(e -> playSound("path/to/cardinal_song.wav")); 
-        panel.add(playBirdSongButtonOhio); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Ohio.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Ohio Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Ohio.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Oklahoma
-    
-    private static void Oklahoma() { 
-    
-        // Create the main frame
+    private static void Oklahoma() {
         JFrame frame = new JFrame("Oklahoma Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelOklahoma = new JLabel(new ImageIcon("images/flags/Oklahomaflg.png")); 
-        panel.add(flagLabelOklahoma); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Oklahomaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextOklahoma = new JTextArea(
-            "Oklahoma, known for its Great Plains, rich Native American heritage, and vibrant music scene, offers a blend of cultural experiences."
-        ); 
-        descriptionTextOklahoma.setLineWrap(true); 
-        descriptionTextOklahoma.setWrapStyleWord(true); 
-        descriptionTextOklahoma.setEditable(false); 
-        descriptionTextOklahoma.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextOklahoma); 
+        JTextArea descriptionTextState = new JTextArea("Native American heritage and wide-open plains.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageOklahoma = new JLabel(new ImageIcon("images/flowers/OklahomaFlower.jpg")); 
-        panel.add(flowerImageOklahoma); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageOklahoma = new JLabel(new ImageIcon("images/birds/OklahomaBird.jpg")); 
-        panel.add(birdImageOklahoma); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Oklahomaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonOklahoma = new JButton("Play Scissor-tailed Flycatcher Song"); 
-        playBirdSongButtonOklahoma.addActionListener(e -> playSound("path/to/flycatcher_song.wav")); 
-        panel.add(playBirdSongButtonOklahoma); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Oklahoma.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Oklahoma Bird Song");
+        // Oklahoma uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Oklahoma.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Oregon
-    
-    private static void Oregon() { 
-    
-        // Create the main frame
+    private static void Oregon() {
         JFrame frame = new JFrame("Oregon Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelOregon = new JLabel(new ImageIcon("images/flags/Oregonflg.png")); 
-        panel.add(flagLabelOregon); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Oregonflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextOregon = new JTextArea(
-            "Oregon, known for its diverse landscapes from beaches to mountains, vibrant tech industry, and rich cultural heritage."
-        ); 
-        descriptionTextOregon.setLineWrap(true); 
-        descriptionTextOregon.setWrapStyleWord(true); 
-        descriptionTextOregon.setEditable(false); 
-        descriptionTextOregon.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextOregon); 
+        JTextArea descriptionTextState = new JTextArea("Stunning coastlines, forests, and quirky Portland culture.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageOregon = new JLabel(new ImageIcon("images/flowers/OregonFlower.jpg")); 
-        panel.add(flowerImageOregon); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageOregon = new JLabel(new ImageIcon("images/birds/OregonBird.jpg")); 
-        panel.add(birdImageOregon); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Oregonflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonOregon = new JButton("Play Western Meadowlark Song"); 
-        playBirdSongButtonOregon.addActionListener(e -> playSound("path/to/meadowlark_song.wav")); 
-        panel.add(playBirdSongButtonOregon); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Oregon.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Oregon Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Oregon.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Pennsylvania
-    
-    private static void Pennsylvania() { 
-    
-        // Create the main frame
+    private static void Pennsylvania() {
         JFrame frame = new JFrame("Pennsylvania Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelPennsylvania = new JLabel(new ImageIcon("images/flags/Pennsylvaniaflg.png")); 
-        panel.add(flagLabelPennsylvania); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Pennflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextPennsylvania = new JTextArea(
-            "Pennsylvania, the Keystone State, is rich in American history, diverse landscapes, and bustling cities like Philadelphia and Pittsburgh."
-        ); 
-        descriptionTextPennsylvania.setLineWrap(true); 
-        descriptionTextPennsylvania.setWrapStyleWord(true); 
-        descriptionTextPennsylvania.setEditable(false); 
-        descriptionTextPennsylvania.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextPennsylvania); 
+        JTextArea descriptionTextState = new JTextArea("American Revolution landmarks and Amish country.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImagePennsylvania = new JLabel(new ImageIcon("images/flowers/PennsylvaniaFlower.jpg")); 
-        panel.add(flowerImagePennsylvania); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImagePennsylvania = new JLabel(new ImageIcon("images/birds/PennsylvaniaBird.jpg")); 
-        panel.add(birdImagePennsylvania); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Pennflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonPennsylvania = new JButton("Play Ruffed Grouse Song"); 
-        playBirdSongButtonPennsylvania.addActionListener(e -> playSound("path/to/grouse_song.wav")); 
-        panel.add(playBirdSongButtonPennsylvania); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Penn.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Pennsylvania Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Penn.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Rhode Island
-    
-    private static void RhodeIsland() { 
-    
-        // Create the main frame
+    private static void RhodeIsland() {
         JFrame frame = new JFrame("Rhode Island Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelRhodeIsland = new JLabel(new ImageIcon("images/flags/RhodeIslandflg.png")); 
-        panel.add(flagLabelRhodeIsland); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Rhodeflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextRhodeIsland = new JTextArea(
-            "Rhode Island, the Ocean State, is known for its beautiful coastal towns, historic landmarks, and vibrant maritime culture."
-        ); 
-        descriptionTextRhodeIsland.setLineWrap(true); 
-        descriptionTextRhodeIsland.setWrapStyleWord(true); 
-        descriptionTextRhodeIsland.setEditable(false); 
-        descriptionTextRhodeIsland.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextRhodeIsland); 
+        JTextArea descriptionTextState = new JTextArea("Small but full of seaside charm and history.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageRhodeIsland = new JLabel(new ImageIcon("images/flowers/RhodeIslandFlower.jpg")); 
-        panel.add(flowerImageRhodeIsland); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageRhodeIsland = new JLabel(new ImageIcon("images/birds/RhodeIslandBird.jpg")); 
-        panel.add(birdImageRhodeIsland); 
+        // Use "Rhode" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Rhodeflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonRhodeIsland = new JButton("Play Rhode Island Red Song"); 
-        playBirdSongButtonRhodeIsland.addActionListener(e -> playSound("path/to/rhodeislandred_song.wav")); 
-        panel.add(playBirdSongButtonRhodeIsland); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Rhode.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Rhode Island Bird Song");
+        // Rhode Island uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Rhode.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // South Carolina
-    
-    private static void SouthCarolina() { 
-    
-        // Create the main frame
+    private static void SouthCarolina() {
         JFrame frame = new JFrame("South Carolina Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelSouthCarolina = new JLabel(new ImageIcon("images/flags/SouthCarolinaflg.png")); 
-        panel.add(flagLabelSouthCarolina); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/SouthCaroflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextSouthCarolina = new JTextArea(
-            "South Carolina, known for its historic plantations, beautiful beaches, and vibrant cultural festivals, offers a blend of tradition and modernity."
-        ); 
-        descriptionTextSouthCarolina.setLineWrap(true); 
-        descriptionTextSouthCarolina.setWrapStyleWord(true); 
-        descriptionTextSouthCarolina.setEditable(false); 
-        descriptionTextSouthCarolina.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextSouthCarolina); 
+        JTextArea descriptionTextState = new JTextArea("Historic Charleston and beautiful beaches.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageSouthCarolina = new JLabel(new ImageIcon("images/flowers/SouthCarolinaFlower.jpg")); 
-        panel.add(flowerImageSouthCarolina); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageSouthCarolina = new JLabel(new ImageIcon("images/birds/SouthCarolinaBird.jpg")); 
-        panel.add(birdImageSouthCarolina); 
+        // Use "SouthCaro" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/SouthCaroflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonSouthCarolina = new JButton("Play Carolina Wren Song"); 
-        playBirdSongButtonSouthCarolina.addActionListener(e -> playSound("path/to/wren_song.wav")); 
-        panel.add(playBirdSongButtonSouthCarolina); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/SouthCaro.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play South Carolina Bird Song");
+        // South Carolina uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/SouthCaro.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // South Dakota
-    
-    private static void SouthDakota() { 
-    
-        // Create the main frame
+    private static void SouthDakota() {
         JFrame frame = new JFrame("South Dakota Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelSouthDakota = new JLabel(new ImageIcon("images/flags/SouthDakotaflg.png")); 
-        panel.add(flagLabelSouthDakota); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/SouthDakoflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextSouthDakota = new JTextArea(
-            "South Dakota, home to Mount Rushmore and the Badlands, offers stunning natural wonders and a rich Native American heritage."
-        ); 
-        descriptionTextSouthDakota.setLineWrap(true); 
-        descriptionTextSouthDakota.setWrapStyleWord(true); 
-        descriptionTextSouthDakota.setEditable(false); 
-        descriptionTextSouthDakota.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextSouthDakota); 
+        JTextArea descriptionTextState = new JTextArea("Mount Rushmore and the Badlands.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageSouthDakota = new JLabel(new ImageIcon("images/flowers/SouthDakotaFlower.jpg")); 
-        panel.add(flowerImageSouthDakota); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageSouthDakota = new JLabel(new ImageIcon("images/birds/SouthDakotaBird.jpg")); 
-        panel.add(birdImageSouthDakota); 
+        // Use "SouthDako" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/SouthDakoflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonSouthDakota = new JButton("Play Ring-necked Pheasant Song"); 
-        playBirdSongButtonSouthDakota.addActionListener(e -> playSound("path/to/pheasant_song.wav")); 
-        panel.add(playBirdSongButtonSouthDakota); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/SouthDako.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play South Dakota Bird Song");
+        // South Dakota uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/SouthDako.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Tennessee
-    
-    private static void Tennessee() { 
-    
-        // Create the main frame
+    private static void Tennessee() {
         JFrame frame = new JFrame("Tennessee Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelTennessee = new JLabel(new ImageIcon("images/flags/Tennesseeflg.png")); 
-        panel.add(flagLabelTennessee); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Tennisflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextTennessee = new JTextArea(
-            "Tennessee, the Volunteer State, is renowned for its contributions to music, including country, blues, and rock 'n' roll, as well as its scenic landscapes."
-        ); 
-        descriptionTextTennessee.setLineWrap(true); 
-        descriptionTextTennessee.setWrapStyleWord(true); 
-        descriptionTextTennessee.setEditable(false); 
-        descriptionTextTennessee.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextTennessee); 
+        JTextArea descriptionTextState = new JTextArea("Country music, Great Smoky Mountains, and BBQ.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageTennessee = new JLabel(new ImageIcon("images/flowers/TennesseeFlower.jpg")); 
-        panel.add(flowerImageTennessee); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageTennessee = new JLabel(new ImageIcon("images/birds/TennesseeBird.jpg")); 
-        panel.add(birdImageTennessee); 
+        // Use "Tennis" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Tennisflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonTennessee = new JButton("Play Mockingbird Song"); 
-        playBirdSongButtonTennessee.addActionListener(e -> playSound("path/to/mockingbird_song.wav")); 
-        panel.add(playBirdSongButtonTennessee); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Tennis.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Tennessee Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Tennis.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Texas
-    
-    private static void Texas() { 
-    
-        // Create the main frame
+    private static void Texas() {
         JFrame frame = new JFrame("Texas Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelTexas = new JLabel(new ImageIcon("images/flags/Texasflg.png")); 
-        panel.add(flagLabelTexas); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Texasflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextTexas = new JTextArea(
-            "Texas, the Lone Star State, is known for its vast landscapes, rich cultural diversity, and vibrant cities like Houston, Austin, and Dallas."
-        ); 
-        descriptionTextTexas.setLineWrap(true); 
-        descriptionTextTexas.setWrapStyleWord(true); 
-        descriptionTextTexas.setEditable(false); 
-        descriptionTextTexas.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextTexas); 
+        JTextArea descriptionTextState = new JTextArea("Big everything—cowboys, BBQ, and vibrant cities.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageTexas = new JLabel(new ImageIcon("images/flowers/TexasFlower.jpg")); 
-        panel.add(flowerImageTexas); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageTexas = new JLabel(new ImageIcon("images/birds/TexasBird.jpg")); 
-        panel.add(birdImageTexas); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Texasflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonTexas = new JButton("Play Northern Mockingbird Song"); 
-        playBirdSongButtonTexas.addActionListener(e -> playSound("path/to/mockingbird_song.wav")); 
-        panel.add(playBirdSongButtonTexas); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Texas.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Texas Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Texas.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Utah
-    
-    private static void Utah() { 
-    
-        // Create the main frame
+    private static void Utah() {
         JFrame frame = new JFrame("Utah Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelUtah = new JLabel(new ImageIcon("images/flags/Utahflg.png")); 
-        panel.add(flagLabelUtah); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Utahflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextUtah = new JTextArea(
-            "Utah, known for its stunning national parks, vibrant ski resorts, and rich Mormon heritage, offers a unique blend of natural beauty and cultural depth."
-        ); 
-        descriptionTextUtah.setLineWrap(true); 
-        descriptionTextUtah.setWrapStyleWord(true); 
-        descriptionTextUtah.setEditable(false); 
-        descriptionTextUtah.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextUtah); 
+        JTextArea descriptionTextState = new JTextArea("Mormons, breathtaking national parks and outdoor recreation.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageUtah = new JLabel(new ImageIcon("images/flowers/UtahFlower.jpg")); 
-        panel.add(flowerImageUtah); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageUtah = new JLabel(new ImageIcon("images/birds/UtahBird.jpg")); 
-        panel.add(birdImageUtah); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Utahflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonUtah = new JButton("Play California Gull Song"); 
-        playBirdSongButtonUtah.addActionListener(e -> playSound("path/to/gull_song.wav")); 
-        panel.add(playBirdSongButtonUtah); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Utah.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Utah Bird Song");
+        // Utah uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Utah.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Vermont
-    
-    private static void Vermont() { 
-    
-        // Create the main frame
+    private static void Vermont() {
         JFrame frame = new JFrame("Vermont Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelVermont = new JLabel(new ImageIcon("images/flags/Vermontflg.png")); 
-        panel.add(flagLabelVermont); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Vermontflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextVermont = new JTextArea(
-            "Vermont, known for its picturesque landscapes, vibrant fall foliage, and charming small towns, offers a peaceful and scenic environment."
-        ); 
-        descriptionTextVermont.setLineWrap(true); 
-        descriptionTextVermont.setWrapStyleWord(true); 
-        descriptionTextVermont.setEditable(false); 
-        descriptionTextVermont.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextVermont); 
+        JTextArea descriptionTextState = new JTextArea("Maple syrup, charming villages, and ski resorts.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageVermont = new JLabel(new ImageIcon("images/flowers/VermontFlower.jpg")); 
-        panel.add(flowerImageVermont); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageVermont = new JLabel(new ImageIcon("images/birds/VermontBird.jpg")); 
-        panel.add(birdImageVermont); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Vermontflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonVermont = new JButton("Play Hermit Thrush Song"); 
-        playBirdSongButtonVermont.addActionListener(e -> playSound("path/to/thrush_song.wav")); 
-        panel.add(playBirdSongButtonVermont); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Vermont.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Vermont Bird Song");
+        // Vermont uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Vermont.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Virginia
-    
-    private static void Virginia() { 
-    
-        // Create the main frame
+    private static void Virginia() {
         JFrame frame = new JFrame("Virginia Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelVirginia = new JLabel(new ImageIcon("images/flags/Virginiaflg.png")); 
-        panel.add(flagLabelVirginia); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Virginiaflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextVirginia = new JTextArea(
-            "Virginia, known as the Old Dominion, is rich in American history, diverse landscapes from beaches to mountains, and vibrant cities like Richmond and Virginia Beach."
-        ); 
-        descriptionTextVirginia.setLineWrap(true); 
-        descriptionTextVirginia.setWrapStyleWord(true); 
-        descriptionTextVirginia.setEditable(false); 
-        descriptionTextVirginia.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextVirginia); 
+        JTextArea descriptionTextState = new JTextArea("Historic landmarks and scenic Blue Ridge Mountains.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageVirginia = new JLabel(new ImageIcon("images/flowers/VirginiaFlower.jpg")); 
-        panel.add(flowerImageVirginia); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageVirginia = new JLabel(new ImageIcon("images/birds/VirginiaBird.jpg")); 
-        panel.add(birdImageVirginia); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Virginiaflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonVirginia = new JButton("Play Cardinal Song"); 
-        playBirdSongButtonVirginia.addActionListener(e -> playSound("path/to/cardinal_song.wav")); 
-        panel.add(playBirdSongButtonVirginia); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Virginia.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Virginia Bird Song");
+        // Virginia uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Virginia.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Washington
-    
-    private static void Washington() { 
-    
-        // Create the main frame
+    private static void Washington() {
         JFrame frame = new JFrame("Washington Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelWashington = new JLabel(new ImageIcon("images/flags/Washingtonflg.png")); 
-        panel.add(flagLabelWashington); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Washingtonflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextWashington = new JTextArea(
-            "Washington, the Evergreen State, is known for its lush landscapes, thriving tech industry in Seattle, and iconic landmarks like Mount Rainier."
-        ); 
-        descriptionTextWashington.setLineWrap(true); 
-        descriptionTextWashington.setWrapStyleWord(true); 
-        descriptionTextWashington.setEditable(false); 
-        descriptionTextWashington.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextWashington); 
+        JTextArea descriptionTextState = new JTextArea("Evergreen state with Seattle and stunning coastal views.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageWashington = new JLabel(new ImageIcon("images/flowers/WashingtonFlower.jpg")); 
-        panel.add(flowerImageWashington); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageWashington = new JLabel(new ImageIcon("images/birds/WashingtonBird.jpg")); 
-        panel.add(birdImageWashington); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Washingtonflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonWashington = new JButton("Play Willow Ptarmigan Song"); 
-        playBirdSongButtonWashington.addActionListener(e -> playSound("path/to/ptarmigan_song.wav")); 
-        panel.add(playBirdSongButtonWashington); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Washington.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Washington Bird Song");
+        // Washington uses mp3:
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Washington.mp3"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // West Virginia
-    
-    private static void WestVirginia() { 
-    
-        // Create the main frame
+    private static void WestVirginia() {
         JFrame frame = new JFrame("West Virginia Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelWestVirginia = new JLabel(new ImageIcon("images/flags/WestVirginiaflg.png")); 
-        panel.add(flagLabelWestVirginia); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/WVirginflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextWestVirginia = new JTextArea(
-            "West Virginia, the Mountain State, is renowned for its rugged terrain, outdoor recreational activities, and rich Appalachian culture."
-        ); 
-        descriptionTextWestVirginia.setLineWrap(true); 
-        descriptionTextWestVirginia.setWrapStyleWord(true); 
-        descriptionTextWestVirginia.setEditable(false); 
-        descriptionTextWestVirginia.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextWestVirginia); 
+        JTextArea descriptionTextState = new JTextArea("Appalachian Mountains and outdoor adventure.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageWestVirginia = new JLabel(new ImageIcon("images/flowers/WestVirginiaFlower.jpg")); 
-        panel.add(flowerImageWestVirginia); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageWestVirginia = new JLabel(new ImageIcon("images/birds/WestVirginiaBird.jpg")); 
-        panel.add(birdImageWestVirginia); 
+        // Use "WVirgin" for filenames:
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/WVirginflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonWestVirginia = new JButton("Play Cardinal Song"); 
-        playBirdSongButtonWestVirginia.addActionListener(e -> playSound("path/to/cardinal_song.wav")); 
-        panel.add(playBirdSongButtonWestVirginia); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/WVirgin.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play West Virginia Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/WVirgin.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Wisconsin
-    
-    private static void Wisconsin() { 
-    
-        // Create the main frame
+    private static void Wisconsin() {
         JFrame frame = new JFrame("Wisconsin Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelWisconsin = new JLabel(new ImageIcon("images/flags/Wisconsinflg.png")); 
-        panel.add(flagLabelWisconsin); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Wisconsinflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextWisconsin = new JTextArea(
-            "Wisconsin, known as America's Dairyland, is famous for its cheese production, beautiful lakes, and vibrant cities like Milwaukee and Madison."
-        ); 
-        descriptionTextWisconsin.setLineWrap(true); 
-        descriptionTextWisconsin.setWrapStyleWord(true); 
-        descriptionTextWisconsin.setEditable(false); 
-        descriptionTextWisconsin.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextWisconsin); 
+        JTextArea descriptionTextState = new JTextArea("Cheese, dairy farms, and picturesque lake towns.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageWisconsin = new JLabel(new ImageIcon("images/flowers/WisconsinFlower.jpg")); 
-        panel.add(flowerImageWisconsin); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageWisconsin = new JLabel(new ImageIcon("images/birds/WisconsinBird.jpg")); 
-        panel.add(birdImageWisconsin); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Wisconsinflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonWisconsin = new JButton("Play American Robin Song"); 
-        playBirdSongButtonWisconsin.addActionListener(e -> playSound("path/to/robin_song.wav")); 
-        panel.add(playBirdSongButtonWisconsin); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Wisconsin.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Wisconsin Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Wisconsin.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
     
-    // Wyoming
-    
-    private static void Wyoming() { 
-    
-        // Create the main frame
+    private static void Wyoming() {
         JFrame frame = new JFrame("Wyoming Info");
-        frame.setSize(800, 800);  
+        frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-        // Create panel
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         frame.add(panel);
     
-        // State flag
-        JLabel flagLabelWyoming = new JLabel(new ImageIcon("images/flags/Wyomingflg.png")); 
-        panel.add(flagLabelWyoming); 
+        JLabel flagLabelState = new JLabel(new ImageIcon("images/flags/Wyomingflg.png"));
+        flagLabelState.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.add(flagLabelState);
     
-        // State description
-        JTextArea descriptionTextWyoming = new JTextArea(
-            "Wyoming, the Equality State, is renowned for its stunning national parks like Yellowstone, vast open spaces, and rich wildlife."
-        ); 
-        descriptionTextWyoming.setLineWrap(true); 
-        descriptionTextWyoming.setWrapStyleWord(true); 
-        descriptionTextWyoming.setEditable(false); 
-        descriptionTextWyoming.setFont(new Font("Arial", Font.PLAIN, 16)); // Increase font size 
-        panel.add(descriptionTextWyoming); 
+        JTextArea descriptionTextState = new JTextArea("Yellowstone, cowboy culture, and stunning landscapes.\r\n" + //
+                                "");
+        descriptionTextState.setLineWrap(true);
+        descriptionTextState.setWrapStyleWord(true);
+        descriptionTextState.setEditable(false);
+        descriptionTextState.setFont(new Font("Arial", Font.PLAIN, 16));
+        panel.add(descriptionTextState);
     
-        // State Flower
-        JLabel flowerImageWyoming = new JLabel(new ImageIcon("images/flowers/WyomingFlower.jpg")); 
-        panel.add(flowerImageWyoming); 
+        JPanel imagesPanel = new JPanel();
+        imagesPanel.setLayout(new FlowLayout());
     
-        // State Bird
-        JLabel birdImageWyoming = new JLabel(new ImageIcon("images/birds/WyomingBird.jpg")); 
-        panel.add(birdImageWyoming); 
+        ImageIcon flowerIcon = new ImageIcon("images/flowers/Wyomingflwr.jpg");
+        Image flowerImage = flowerIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel flowerImageState = new JLabel(new ImageIcon(flowerImage));
+        imagesPanel.add(flowerImageState);
     
-        // Play Bird Song button
-        JButton playBirdSongButtonWyoming = new JButton("Play Western Meadowlark Song"); 
-        playBirdSongButtonWyoming.addActionListener(e -> playSound("path/to/meadowlark_song.wav")); 
-        panel.add(playBirdSongButtonWyoming); 
+        ImageIcon birdIcon = new ImageIcon("images/birds/Wyoming.jpg");
+        Image birdImage = birdIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+        JLabel birdImageState = new JLabel(new ImageIcon(birdImage));
+        imagesPanel.add(birdImageState);
     
-        // Set frame visibility
+        panel.add(imagesPanel);
+    
+        JButton playBirdSongButtonState = new JButton("Play Wyoming Bird Song");
+        playBirdSongButtonState.addActionListener(e -> playSound("sounds/Wyoming.wav"));
+        panel.add(playBirdSongButtonState);
+    
         frame.setVisible(true);
-    }    
+    }
+    
+    // End of all state methods.
+    
     
     
 
@@ -3095,6 +3236,748 @@ private static void NewMexico() {
         // I want more lines of code
 // I want more lines of code
         // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code
+        // I want more lines of code
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code       
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code     
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code      
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code      
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code   
+                // I want more lines of code
+                        // I want more lines of code
+                                // I want more lines of code
+                                        // I want more lines of code
+                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                                        // I want more lines of code
+                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code       
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                                // I want more lines of code
+                                                                                                                                                                        // I want more lines of code
+                                                                                                                                                                // I want more lines of code
+                                                                                                                                                        // I want more lines of code
+                                                                                                                                                // I want more lines of code
+                                                                                                                                        // I want more lines of code        
+                                                                                                                                // I want more lines of code        
+                                                                                                                        // I want more lines of code
+                                                                                                                // I want more lines of code
+                                                                                                        // I want more lines of code
+                                                                                                // I want more lines of code
+                                                                                        // I want more lines of code
+                                                                                // I want more lines of code
+                                                                        // I want more lines of code
+                                                                // I want more lines of code
+                                                        // I want more lines of code
+                                                // I want more lines of code
+                                        // I want more lines of code
+                                // I want more lines of code
+                        // I want more lines of code
+                // I want more lines of code
+        // I want more lines of code
+// I want more lines of code      
                 // I want more lines of code
                         // I want more lines of code
                                 // I want more lines of code
